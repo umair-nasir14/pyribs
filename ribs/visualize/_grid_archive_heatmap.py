@@ -220,3 +220,7 @@ def grid_archive_heatmap(archive,
 
         # Create color bar.
         set_cbar(t, ax, cbar, cbar_kwargs)
+
+        return t
+
+
